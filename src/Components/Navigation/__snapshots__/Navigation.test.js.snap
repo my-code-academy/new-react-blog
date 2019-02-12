@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation should render a Navigation bar 1`] = `
+<div
+  className="nav"
+>
+  <div>
+    <h1>
+      The Artifact
+    </h1>
+    <h2>
+      Culture & Art Blog
+    </h2>
+  </div>
+  <div
+    className="navLink"
+  >
+    <a
+      href="#!"
+    >
+      Blog
+    </a>
+    <a
+      href="#!"
+    >
+      About
+    </a>
+    <a
+      href="#!"
+    >
+      Contact
+    </a>
+  </div>
+</div>
+`;

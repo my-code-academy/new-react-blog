@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePost should render a CreatePost button 1`] = `
+<div
+  className="createPost"
+>
+  <button
+    className="button"
+  >
+    CreatePost
+  </button>
+</div>
+`;

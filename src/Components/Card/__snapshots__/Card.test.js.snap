@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render a ard 1`] = `
+<div
+  class="card"
+>
+  <img
+    alt="abstract"
+    className="image"
+  />
+  <div
+    className="container"
+  >
+    <div
+      className="dateTime"
+    >
+      <span
+        className="date"
+      />
+      <span
+        className="date"
+        id="readTime"
+      />
+    </div>
+    <p
+      className="title"
+    />
+    <p
+      className="abstract"
+    />
+    <hr />
+    <div
+      className="responses"
+    >
+      <img
+        alt="clap"
+        className="clap"
+        onClick={[Function]}
+        src="clapping.svg"
+      />
+      <span />
+      <img
+        alt=""
+        className="heart"
+        onClick={[Function]}
+        src="heart-red.svg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card should render a card 1`] = `
+<div
+  class="card"
+>
+  <img
+    alt="abstract"
+    className="image"
+  />
+  <div
+    className="container"
+  >
+    <div
+      className="dateTime"
+    >
+      <span
+        className="date"
+      />
+      <span
+        className="date"
+        id="readTime"
+      />
+    </div>
+    <p
+      className="title"
+    />
+    <p
+      className="abstract"
+    />
+    <hr />
+    <div
+      className="responses"
+    >
+      <img
+        alt="clap"
+        className="clap"
+        onClick={[Function]}
+        src="clapping.svg"
+      />
+      <span />
+      <img
+        alt=""
+        className="heart"
+        onClick={[Function]}
+        src="heart-red.svg"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+.nav {
+    padding: 10px 80px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 60px;
+  }
+
+
+  .nav div h2{
+    margin-top:-20px;
+    font-style: italic;
+    font-size:1em;
+  }
+  .navLink a {
+
+    color:white;
+    text-decoration: none;
+  }
+
+  .navLink a:nth-child(2){
+      margin:0 100px;
+  }

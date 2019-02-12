@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardGrid should render a CardGrid 1`] = `
+<div
+  className="card_grid"
+>
+  <div
+    class="card"
+  >
+    <img
+      alt="abstract"
+      className="image"
+      src="./Images/abstract.png"
+    />
+    <div
+      className="container"
+    >
+      <div
+        className="dateTime"
+      >
+        <span
+          className="date"
+        >
+          2nd Januray, 2018
+        </span>
+        <span
+          className="date"
+          id="readTime"
+        >
+          2 mins
+        </span>
+      </div>
+      <p
+        className="title"
+      >
+        The future of abstract art and the culture ...
+      </p>
+      <p
+        className="abstract"
+      >
+        Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+      </p>
+      <hr />
+      <div
+        className="responses"
+      >
+        <img
+          alt="clap"
+          className="clap"
+          onClick={[Function]}
+          src="clapping.svg"
+        />
+        <span>
+          10
+        </span>
+        <img
+          alt=""
+          className="heart"
+          onClick={[Function]}
+          src="heart-red.svg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
