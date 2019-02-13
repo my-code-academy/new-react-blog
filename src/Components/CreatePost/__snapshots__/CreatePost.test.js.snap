@@ -4,10 +4,15 @@ exports[`CreatePost should render a CreatePost button 1`] = `
 <div
   className="createPost"
 >
-  <button
-    className="button"
+  <a
+    href="/create"
+    onClick={[Function]}
   >
-    CreatePost
-  </button>
+    <button
+      className="button"
+    >
+      CreatePost
+    </button>
+  </a>
 </div>
 `;
