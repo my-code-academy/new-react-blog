@@ -7,7 +7,7 @@ import axios from 'axios';
 
 class CreateBlogForm extends Component {
   state = {
-    date: {},
+    date: '',
     title: '',
     readTime: '',
     message: '',
@@ -21,7 +21,9 @@ class CreateBlogForm extends Component {
       bodyFormData.set('readTime', this.state.readTime);
       bodyFormData.set('title', this.state.title);
       bodyFormData.set('message', this.state.message);
-      axios.post('https://putsreq.com/3ooGv5XTGNDmZN5fiNCC', bodyFormData);
+      this.props.addCard({date: this.state.date, readTime: this.state.readTime, title: this.state.title, description: this.state.message});
+      console.log('added rows')
+      //axios.post('https://putsreq.com/3ooGv5XTGNDmZN5fiNCC', bodyFormData);
     }
   }
 
@@ -39,6 +41,13 @@ class CreateBlogForm extends Component {
   handleMessageChange(e){
     this.setState({message: e.target.value})
   }
+
+  // formDataChange = (e) =>{
+  //   return this.setState({
+  //       [e.target.name]:e.target.value,
+  //   })}
+
+
 
   render() {
     return (
